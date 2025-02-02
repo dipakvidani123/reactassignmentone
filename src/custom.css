@@ -108,3 +108,15 @@ button:active{
     width: 98%;
     border-radius: 2rem 2rem 0rem 0rem;
 }
+
+.table1{
+    color: black;
+    background-image: url(3079082.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.table1 table tr,td {
+    color: whitesmoke;
+    font-weight: 500;
+}
