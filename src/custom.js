@@ -12,10 +12,17 @@ var Table={
 
 var table={
     border:"1px solid black",
+    backgroundColor:'black'
 }
 
 var tr_td={
-    border:"1px solid black",
+    border:"1px solid white",
+    color:"yellow"
+}
+   
+var th={
+    border:"1px solid grey",
+    color:"light cyan"
 }
    
 
@@ -23,12 +30,69 @@ function Image () {
     return (
 
         <>
+        
+        <marquee behavior="scroll" direction="left" scrollamount={30} loop="infinite">
 
-        <div className="img">
+        <div className="img" style={{display:"flex",alignItems:'center',cursor:"pointer"}}>
 
-            <img src="https://tse1.mm.bing.net/th?id=OIF.Q19yCyCXSX3W40E0D%2bIbbw&pid=Api&P=0&h=180" alt="" style={{borderRadius:30,height:"40vh",width:"40vw",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}} />
+            <img src="virat_kohli_has_played_all_ipls_for_rcb_1523090525.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="virat1.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="virat.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="https://cdn.britannica.com/48/252748-050-C514EFDB/Virat-Kohli-India-celebrates-50th-century-Cricket-November-15-2023.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="virat2.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="https://tse1.mm.bing.net/th?id=OIF.Q19yCyCXSX3W40E0D%2bIbbw&pid=Api&P=0&h=180" alt="" style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}} />
+            <img src="virat_kohli_has_played_all_ipls_for_rcb_1523090525.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="virat1.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="virat.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="https://cdn.britannica.com/48/252748-050-C514EFDB/Virat-Kohli-India-celebrates-50th-century-Cricket-November-15-2023.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="virat2.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="https://tse1.mm.bing.net/th?id=OIF.Q19yCyCXSX3W40E0D%2bIbbw&pid=Api&P=0&h=180" alt="" style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}} />
+            <img src="virat_kohli_has_played_all_ipls_for_rcb_1523090525.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="virat1.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="virat.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="https://cdn.britannica.com/48/252748-050-C514EFDB/Virat-Kohli-India-celebrates-50th-century-Cricket-November-15-2023.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="virat2.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="https://tse1.mm.bing.net/th?id=OIF.Q19yCyCXSX3W40E0D%2bIbbw&pid=Api&P=0&h=180" alt="" style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}} />
+            <img src="virat_kohli_has_played_all_ipls_for_rcb_1523090525.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="virat1.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="virat.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="https://cdn.britannica.com/48/252748-050-C514EFDB/Virat-Kohli-India-celebrates-50th-century-Cricket-November-15-2023.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="virat2.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="https://tse1.mm.bing.net/th?id=OIF.Q19yCyCXSX3W40E0D%2bIbbw&pid=Api&P=0&h=180" alt="" style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}} />
+            <img src="virat_kohli_has_played_all_ipls_for_rcb_1523090525.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="virat1.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="virat.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="https://cdn.britannica.com/48/252748-050-C514EFDB/Virat-Kohli-India-celebrates-50th-century-Cricket-November-15-2023.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="virat2.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="https://tse1.mm.bing.net/th?id=OIF.Q19yCyCXSX3W40E0D%2bIbbw&pid=Api&P=0&h=180" alt="" style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}} />
+            <img src="virat_kohli_has_played_all_ipls_for_rcb_1523090525.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="virat1.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="virat.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="https://cdn.britannica.com/48/252748-050-C514EFDB/Virat-Kohli-India-celebrates-50th-century-Cricket-November-15-2023.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="virat2.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="https://tse1.mm.bing.net/th?id=OIF.Q19yCyCXSX3W40E0D%2bIbbw&pid=Api&P=0&h=180" alt="" style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}} />
+            <img src="virat_kohli_has_played_all_ipls_for_rcb_1523090525.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="virat1.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="virat.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="https://cdn.britannica.com/48/252748-050-C514EFDB/Virat-Kohli-India-celebrates-50th-century-Cricket-November-15-2023.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="virat2.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="https://tse1.mm.bing.net/th?id=OIF.Q19yCyCXSX3W40E0D%2bIbbw&pid=Api&P=0&h=180" alt="" style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}} />
+            <img src="virat_kohli_has_played_all_ipls_for_rcb_1523090525.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="virat1.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="virat.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="https://cdn.britannica.com/48/252748-050-C514EFDB/Virat-Kohli-India-celebrates-50th-century-Cricket-November-15-2023.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="virat2.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="https://tse1.mm.bing.net/th?id=OIF.Q19yCyCXSX3W40E0D%2bIbbw&pid=Api&P=0&h=180" alt="" style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}} />
+            <img src="virat_kohli_has_played_all_ipls_for_rcb_1523090525.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="virat1.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="virat.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="https://cdn.britannica.com/48/252748-050-C514EFDB/Virat-Kohli-India-celebrates-50th-century-Cricket-November-15-2023.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="virat2.jpg" alt=""   style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}}/>
+            <img src="https://tse1.mm.bing.net/th?id=OIF.Q19yCyCXSX3W40E0D%2bIbbw&pid=Api&P=0&h=180" alt="" style={{borderRadius:30,height:"40vh",width:"40vw",margin:"5px",boxShadow:"20px 20px 20px 0px rgba(6, 5, 5, 0.2)"}} />
 
         </div>
+
+        </marquee>
         
         </>
 
@@ -91,10 +155,10 @@ function Result () {
             <table style={table}>
 
                 <tr style={tr_td}>
-                    <th style={tr_td}>NO.</th>
-                    <th style={tr_td}>RUNS.</th>
-                    <th style={tr_td}>AGAINST.</th>
-                    <th style={tr_td}>Date.</th>
+                    <th style={th}>NO.</th>
+                    <th style={th}>RUNS.</th>
+                    <th style={th}>AGAINST.</th>
+                    <th style={th}>Date.</th>
                 </tr>
 
                 <tr style={tr_td}>
@@ -149,7 +213,25 @@ function Novelbox () {
     return (
 
         <>
+
+            <h3>Novel Writen on Virat Kohli</h3>
+
             <div className="Novel-container">
+
+                <div id="novel-card">
+                    <img src="https://m.media-amazon.com/images/I/51ESKjLM0HL._AC_UY218_.jpg" alt="" />
+                    <h4>Virat [Paperback] Jha, Neeraj and Kumar, Vidhanshu</h4>
+                </div>
+
+                <div id="novel-card">
+                    <img src="https://m.media-amazon.com/images/I/81EHLp0JCyL._AC_UY218_.jpg" alt="" />
+                    <h4>Winning Like Virat: Think and Succeed like Kohli</h4>
+                </div>
+
+                <div id="novel-card">
+                    <img src="https://m.media-amazon.com/images/I/51ESKjLM0HL._AC_UY218_.jpg" alt="" />
+                    <h4>Virat [Paperback] Jha, Neeraj and Kumar, Vidhanshu</h4>
+                </div>
 
                 <div id="novel-card">
                     <img src="https://m.media-amazon.com/images/I/51ESKjLM0HL._AC_UY218_.jpg" alt="" />

@@ -6,8 +6,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  background-color: rgba(128, 0, 128, 0.295);
-  background-image: url(https://www.district.in/assets/images/background-placeholder.png);
+  background-color: #414141;
+  /* background-image: url(https://www.district.in/assets/images/background-placeholder.png); */
 }
 
 code {
