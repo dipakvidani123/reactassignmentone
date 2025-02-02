@@ -1,0 +1,47 @@
+.img{
+    text-align: center;
+}
+.List{
+    display:flex;
+    justify-content: space-evenly;
+}
+h3{
+    text-align: center;
+    color: darkcyan;
+}
+li{
+    color: blue;
+    margin: 2px;
+    padding: 1px;
+}
+
+button{
+    height: 2rem;
+    width: 10rem;
+    border-radius: 20px;
+    color: yellowgreen;
+    background-color: red;
+}
+.button{
+    display: flex;
+    justify-content: center;
+
+}
+.Novel-container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 15rem;
+    justify-content: center;
+}
+#novel-card{
+    text-align: center;
+    height: 100%; 
+    width: 30%;
+    /* border: 1px solid black; */
+}
+#novel-card img{
+    height: 20rem;
+    padding: 10px;
+    width: 80%;
+    border-radius: 30px;
+}
